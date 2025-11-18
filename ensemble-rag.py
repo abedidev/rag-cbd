@@ -27,12 +27,12 @@ GEMINI_MODEL_NAME = "gemini-2.5-pro"   # Gemini generator
 GPT_MODEL_NAME = "gpt-5.1"             # GPT 5 generator
 JUDGE_MODEL_NAME = "gpt-5.1"           # GPT 5 judge (can be same or different)
 
-INPUT_PATH = Path("/home/ali/PycharmProjects/rag-first/generated-intakes-only-intake-33-64")
-OUTPUT_PATH = Path("/home/ali/PycharmProjects/rag-first/generated-intakes-01-64-ensemble")
+INPUT_PATH = Path("")
+OUTPUT_PATH = Path("")
 SYSTEM_PROMPT_PATH = Path("system-prompt-rag.txt")
 
-CBD_PDF_FOLDER = Path("/home/ali/Documents/cbd-guidelines/")
-FAISS_INDEX_DIR = Path("/home/ali/PycharmProjects/rag-first/cbd_faiss_index")
+CBD_PDF_FOLDER = Path("")
+FAISS_INDEX_DIR = Path("")
 
 # --------------------------------------------------------------------
 # Helper: build retrieval query from intake JSON
